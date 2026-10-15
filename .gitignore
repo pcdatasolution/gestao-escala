@@ -1,0 +1,14 @@
+# Credenciais e ambiente local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporários locais e arquivos do sistema
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# Documentação, AGENTS.md, .agents/skills/ e .codex/agents/ são versionáveis.
