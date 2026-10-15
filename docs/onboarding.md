@@ -43,4 +43,6 @@ Aceite: ambos realmente acionados, D03/D04 abertas, fontes conferidas pelo coord
 
 Consulte [setup](setup.md), [workflow](workflow.md) e [quality](quality.md). Não instale plugins ou MCPs. A descoberta pode depender da confiança do cliente no projeto; preserve políticas e reporte bloqueios.
 
+Para retomar uma demanda, siga a reconciliação descrita no workflow e seu registro persistente. O [P01](pilotos/P01-fluxo-operacional.md) registra uma validação T7 aprovada em leitura. Não repita o teste de agentes acima em toda retomada: confira disponibilidade quando necessária à tarefa e diferencie resultados históricos das verificações atuais.
+
 O launcher `py -3` não encontrou Python no executor e o shim `python` não tem versão selecionada. Há Python 3.11.3 instalado via pyenv; use seu executável existente diretamente para validar, sem alterar configuração global/local. O caminho de máquina está registrado em setup. `npm.ps1` é bloqueado por política; `npm.cmd` funciona, mas não é necessário neste estágio.
