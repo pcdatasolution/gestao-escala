@@ -131,3 +131,15 @@ O revisor não encontrou achados materiais. Apontou uma melhoria de rastreabilid
 A verificação posterior confirmou os dez arquivos do toolkit presentes e legíveis, os dois TOMLs válidos e os quatro SHA-256 iguais à linha de base e aos registros do teste. O inventário continha apenas os 14 arquivos esperados fora de Git, sem temporários ou locks encontrados. Branch `main` e origin `https://github.com/pcdatasolution/gestao-escala` foram confirmados; naquele momento os 14 arquivos ainda não eram rastreados e não havia commits.
 
 O procedimento permanece em [onboarding](onboarding.md). A conclusão atual autoriza o primeiro commit e sua publicação; o hash do commit e o resultado efetivo do push serão informados no relatório de execução, sem antecipar sucesso neste registro.
+
+## Fechamento do versionamento e da auditoria de fundação — 15/10/2026
+
+Esta nota complementa os registros históricos anteriores, sem substituí-los.
+
+- Commit inicial: `9231fcee7e94103cd65c76f1be6b66b3d5aad7ad`.
+- Mensagem: `chore: initialize gestao-escala project and codex agents`.
+- Publicação: segundo o resultado do PowerShell informado pelo usuário, o comando retornou `Everything up-to-date` e configurou o upstream `origin/main`. A fonte deste registro é o relato do usuário.
+- Na auditoria, a sincronização local observada foi de zero commits à frente e zero atrás da referência local `origin/main`. Não houve verificação remota independente durante a auditoria nem consulta atual ao servidor GitHub nesta correção.
+- A auditoria de fundação R01/R02/R03 foi concluída em leitura, com parecer de fundação aprovada com ressalvas, sem achados HIGH. Foram identificados R03-01 (MEDIUM: orientação desatualizada) e R03-02 (LOW: fechamento do versionamento sem registro persistente).
+- Esta correção atualiza as orientações em README, PRODUCT e quality e acrescenta esta nota para tratar os dois achados. O Vibe Coding Toolkit está instalado e o teste D03/D04 dos agentes `evidence-researcher` e `planning-reviewer`, com delegação real, foi aprovado, conforme o registro anterior.
+- A próxima etapa proposta é estruturar o fluxo de desenvolvimento, sujeita à autorização humana. D01–D20 permanecem abertas. Não há autorização para criar um índice de rastreabilidade ou iniciar implementação.

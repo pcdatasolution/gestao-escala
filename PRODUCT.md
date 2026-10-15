@@ -30,6 +30,8 @@ Não há aplicação, banco, autenticação, API ou interface implementada. Não
 
 ## Próxima entrega e aceite
 
-Primeiro validar os agentes em nova sessão. Depois pode ser proposto um índice de rastreabilidade de D01–D20, sem respondê-las nem alterar fontes. O aceite desse índice seria conter as 20 decisões, referências verificáveis e limites das evidências; sua criação não faz parte deste setup.
+O Vibe Coding Toolkit foi instalado; `evidence-researcher` e `planning-reviewer` foram testados com delegação real no teste D03/D04, aprovado. A auditoria de fundação R01/R02/R03 foi concluída com parecer de aprovação com ressalvas, conforme [setup](docs/setup.md).
+
+A próxima etapa proposta é estruturar o fluxo de desenvolvimento, sujeita à autorização humana para definir seu escopo e aceite. D01–D20 permanecem abertas. Não há autorização para criar um índice de rastreabilidade ou iniciar implementação.
 
 Critérios de aceite das funcionalidades ainda dependem das decisões aprovadas. Critérios técnicos deste setup estão em [quality](docs/quality.md).

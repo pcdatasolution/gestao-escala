@@ -40,4 +40,8 @@ O [workflow](workflow.md) define revisão separada e ciclos sugeridos; [onboardi
 
 ## Aceite deste setup
 
-Dez arquivos previstos presentes, links locais resolvidos e TOMLs aceitos por parser, sem overrides de modelo/provedor/permissões. Quatro hashes originais idênticos. Git na raiz/origin corretos com exceção temporária. Sem configuração global, dependência, commit ou push. Descoberta e execução dos agentes ficam pendentes até evidência de nova sessão.
+O Vibe Coding Toolkit foi instalado e validado: dez arquivos previstos presentes, links locais resolvidos, TOMLs aceitos por parser sem overrides de modelo/provedor/permissões e quatro hashes originais idênticos. Git na raiz/origin corretos com exceção temporária, sem alteração de configuração global nem instalação de dependências de aplicação. O versionamento posterior está registrado em [setup](setup.md).
+
+Os agentes `evidence-researcher` e `planning-reviewer` foram testados com delegação real no teste D03/D04, aprovado. A auditoria de fundação R01/R02/R03 foi concluída com parecer de aprovação com ressalvas; resultados e limites estão em setup.
+
+A próxima etapa proposta é estruturar o fluxo de desenvolvimento, sujeita à autorização humana. D01–D20 permanecem abertas; criar um índice de rastreabilidade ou iniciar implementação não está autorizado.

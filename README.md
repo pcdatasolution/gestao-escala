@@ -18,4 +18,6 @@ Leia o [escopo](PRODUCT.md), as [instruções para agentes](AGENTS.md) e a [prep
 
 ## Próximo passo
 
-Validar a descoberta dos agentes em uma nova sessão do Codex, conforme onboarding. D01–D20 continuam abertas até deliberação explícita do usuário.
+O Vibe Coding Toolkit foi instalado. Os agentes `evidence-researcher` e `planning-reviewer` foram testados com delegação real no teste D03/D04, aprovado. A auditoria de fundação R01/R02/R03 foi concluída com parecer de aprovação com ressalvas; veja os registros em [setup](docs/setup.md).
+
+A próxima etapa proposta é estruturar o fluxo de desenvolvimento, sujeita à autorização humana. D01–D20 permanecem abertas. Esta orientação não autoriza criar um índice de rastreabilidade nem iniciar implementação.
